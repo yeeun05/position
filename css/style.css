@@ -8,47 +8,14 @@ ul, ol {
 a {
   text-decoration: none; }
 
-#wrap {
-  width: 800px;
-  border: 10px solid #000;
-  margin: 100px auto; }
-  #wrap::after {
-    content: "";
-    display: block;
-    clear: both; }
-  #wrap .left {
-    width: 400px;
-    height: 400px;
-    background: aqua;
-    float: left;
-    position: relative; }
-  #wrap .right {
-    width: 400px;
-    height: 400px;
-    background: hotpink;
-    float: left;
-    position: relative; }
-    #wrap .right .obj1 {
-      width: 200px;
-      height: 200px;
-      background: #555;
-      position: absolute;
-      bottom: 50px;
-      right: 50px;
-      z-index: 2;
-      opacity: 0.5; }
-    #wrap .right .obj2 {
-      width: 200px;
-      height: 200px;
-      background: #222;
-      position: absolute;
-      top: 50px;
-      left: 50px;
-      z-index: 1; }
-  #wrap .bottom {
-    width: 800px;
-    height: 100px;
-    background: orange;
-    float: left; }
+article {
+  width: 600px;
+  height: 600px;
+  background: aqua;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -300px; }
 
 /*# sourceMappingURL=style.css.map */
