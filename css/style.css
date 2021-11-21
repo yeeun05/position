@@ -9,13 +9,9 @@ a {
   text-decoration: none; }
 
 article {
-  width: 600px;
-  height: 600px;
-  background: aqua;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -300px;
-  margin-left: -300px; }
+  width: 100px;
+  height: 100px;
+  background: hotpink;
+  position: absolute; }
 
 /*# sourceMappingURL=style.css.map */
